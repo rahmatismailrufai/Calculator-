@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-600px=device-width-600px, initial-scale=1.0">
+    <title>simple calculor</title>
+    <style>
+     body{
+        width:360px;
+        margin: 1 auto;
+     }
+     table,td,tr{
+       border:2px ;
+       padding: 15px 20px;
+       margin-bottom: 5px;
+            background-color: blue
+            color: white;
+            font-family:blue,green;
+            font-size:16px;
+            border-radius:3px;
+            
+        }
+        .table{
+            height: 130px;
+            background-color: aqua;
+            color:aqua;
+            padding: 10px 20px;
+            margin: 20px;
+            border-radius: 10px;
+            font-family:Arial;
+            
+        }
+        .table{
+          background-color:aqua;
+          *border-collapse: collapse;*/
+        }
+        #result{
+          background-color:blue;
+        }
+        input{
+          border:3px;
+          padding:14px 24px;
+          border-radius:4px;
+         font-variant-numeric: 24px;
+          --
+        }
+        h2{
+          text-align:center;
+          color:blue;
+        }
+        .display{
+          padding:14px 20px ;
+          onlick font-variant-numeric: 4px;
+        }
+    </style>
+</head>
+<body>
+  <h2>simple calculator</h2>
+    <table id= "table">
+        <tr>
+         <td colspan="2"><input type="number" class="display" id="result"></td>
+           <td><input type="button" value="+" onclick="display('+')"></td>
+      <td><input type="button" value="C" onclick="text"></td>
+  
+    </tr>
+      <!--Input field in a table with the onclick event listner and a display function  -->
+    <tr>
+      <td><input type="button" value="1" "onclick=display('1')--></td>
+     <td><input type="button" value="2" "onclick=display('2')"></td>
+      <td>
+        <input type="button" value="3" "onclick=display('3')">
+      </td>
+      <td><input type="button" value="/" "onclick=display('/')"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="4" onclick="display('4')"></td>
+      <td><input type="button" value="5" onclick="display('5')"></td>
+      <td><input type="button" value="6" onclick="display('6')"></td>
+      <td><input type="button" value="*" onclick="display('*')"></td>
+    </tr>
+    <tr>
+      <td><input type="button" value="7" onclick="display('7')"></td>
+      <td><input type="button" value="8" onclick="display('8')"></td>
+      <td><input type="button" value="9" onclick="display('9')"></td>
+      <td><input type="button" value="-" 
+    </tr>
+</body>
+</html>
